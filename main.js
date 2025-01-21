@@ -5,9 +5,9 @@ function convertC (degreeCelsius){
     convertC (25);
     convertC (95);
 
-function convertFan (degreeFarengeity){
+function convertF (degreeFarengeity){
     degreeCel = ((degreeFarengeity - 32) *5 / 9);
     console.log(degreeCel + "°C");
 }
-    convertFan(77);
-    convertFan(203);
+    convertF(77);
+    convertF(203);
