@@ -1,13 +1,12 @@
-function convertC (degreeCelsius){
-    let degreeFarengeity = ((degreeCelsius  *9 / 5) + 32);
-    console.log(degreeFarengeity + "°F");
-}
-    convertC (25);
-    convertC (95);
+let billAmount = 90000; // вызываем переменную с названием billAmount и прсваеваем ей значение 90000
+let tipPrecent = 30; //
 
-function convertF (degreeFarengeity){
-    degreeCel = ((degreeFarengeity - 32) *5 / 9);
-    console.log(degreeCel + "°C");
+function sum (billAmount, tipPrecent){ //параметры
+    let tip = billAmount * tipPrecent / 100;
+    let total = billAmount + tip;
+    console.log("ваш общий счет с учетом чаевых составляет: " + total);
 }
-    convertF(77);
-    convertF(203);
+
+sum (20000, 50);//аргументы ,первое значение будет являться billAmount - названием переменной, а второе tipPrecent - значение присвоенное переменной 
+sum (4000, 90);
+sum (300000, 30);
